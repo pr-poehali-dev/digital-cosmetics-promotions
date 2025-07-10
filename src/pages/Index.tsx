@@ -10,7 +10,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <h1 className="text-2xl font-bold text-gray-900">ООО Софкот</h1>
+              <h1 className="text-2xl font-bold text-gray-900">ООО "СОФКОТ"</h1>
             </div>
             <nav className="hidden md:flex space-x-8">
               <a
@@ -29,7 +29,7 @@ const Index = () => {
                 href="#services"
                 className="text-gray-600 hover:text-gray-900 transition-colors"
               >
-                Услуги
+                Продукция
               </a>
               <a
                 href="#contact"
@@ -52,12 +52,13 @@ const Index = () => {
             <div className="space-y-8">
               <div className="space-y-4">
                 <h2 className="text-5xl font-bold text-gray-900 leading-tight">
-                  Цифровые коммуникации для
-                  <span className="text-pink-400"> красоты</span>
+                  Производство и продажа
+                  <span className="text-pink-400"> косметики</span>
                 </h2>
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  Продвигаем косметику и парфюмерию через инновационные
-                  digital-решения. Превращаем ваш бренд в магнит для клиентов.
+                  Создаём и продаём качественную косметику, парфюмерию и
+                  средства личной гигиены. Онлайн-магазин с доставкой по всей
+                  России.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -65,14 +66,14 @@ const Index = () => {
                   size="lg"
                   className="bg-pink-400 hover:bg-pink-500 text-white"
                 >
-                  Обсудить проект
+                  Каталог товаров
                 </Button>
                 <Button
                   variant="outline"
                   size="lg"
                   className="border-pink-400 text-pink-400 hover:bg-pink-50"
                 >
-                  Наши кейсы
+                  О производстве
                 </Button>
               </div>
             </div>
@@ -95,8 +96,8 @@ const Index = () => {
               О компании
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Мы — команда экспертов в области цифрового маркетинга,
-              специализирующихся на продвижении beauty-брендов
+              ООО "СОФКОТ" — российский производитель косметики, парфюмерии и
+              средств личной гигиены с собственным интернет-магазином
             </p>
           </div>
 
@@ -104,42 +105,43 @@ const Index = () => {
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0 w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center">
-                  <Icon name="Users" className="w-6 h-6 text-pink-600" />
+                  <Icon name="Factory" className="w-6 h-6 text-pink-600" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                    Экспертная команда
+                    Собственное производство
                   </h3>
                   <p className="text-gray-600">
-                    Опытные специалисты с глубоким пониманием beauty-индустрии
+                    Контроль качества на всех этапах производства косметических
+                    средств
                   </p>
                 </div>
               </div>
 
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0 w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center">
-                  <Icon name="Target" className="w-6 h-6 text-pink-600" />
+                  <Icon name="Globe" className="w-6 h-6 text-pink-600" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                    Точное позиционирование
+                    Интернет-торговля
                   </h3>
                   <p className="text-gray-600">
-                    Находим уникальные преимущества вашего бренда
+                    Удобная покупка онлайн с доставкой по всей России
                   </p>
                 </div>
               </div>
 
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0 w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center">
-                  <Icon name="TrendingUp" className="w-6 h-6 text-pink-600" />
+                  <Icon name="Award" className="w-6 h-6 text-pink-600" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                    Измеримые результаты
+                    Качественная продукция
                   </h3>
                   <p className="text-gray-600">
-                    Прозрачная отчетность и рост ключевых показателей
+                    Только проверенные ингредиенты и современные технологии
                   </p>
                 </div>
               </div>
@@ -148,7 +150,7 @@ const Index = () => {
             <div className="relative">
               <img
                 src="/img/f570f413-6f23-47f4-948e-440701ea31e0.jpg"
-                alt="Команда Софкот"
+                alt="Производство СОФКОТ"
                 className="w-full h-80 object-cover rounded-2xl shadow-lg"
               />
             </div>
@@ -161,11 +163,11 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Наши услуги
+              Наша продукция
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Комплексные решения для продвижения beauty-брендов в цифровом
-              пространстве
+              Широкий ассортимент косметики, парфюмерии и средств личной гигиены
+              собственного производства
             </p>
           </div>
 
@@ -173,14 +175,16 @@ const Index = () => {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Icon name="Smartphone" className="w-8 h-8 text-pink-600" />
+                  <Icon name="Palette" className="w-8 h-8 text-pink-600" />
                 </div>
-                <CardTitle className="text-xl">SMM продвижение</CardTitle>
+                <CardTitle className="text-xl">
+                  Декоративная косметика
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 text-center">
-                  Создание и ведение аккаунтов в социальных сетях с фокусом на
-                  beauty-контент
+                  Тональные кремы, помады, тени для век, румяна и другая
+                  декоративная косметика
                 </p>
               </CardContent>
             </Card>
@@ -188,14 +192,13 @@ const Index = () => {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Icon name="Camera" className="w-8 h-8 text-pink-600" />
+                  <Icon name="Droplets" className="w-8 h-8 text-pink-600" />
                 </div>
-                <CardTitle className="text-xl">Контент-производство</CardTitle>
+                <CardTitle className="text-xl">Уходовая косметика</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 text-center">
-                  Профессиональная съемка и создание визуального контента для
-                  косметики
+                  Кремы для лица и тела, сыворотки, маски, очищающие средства
                 </p>
               </CardContent>
             </Card>
@@ -203,13 +206,13 @@ const Index = () => {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Icon name="Zap" className="w-8 h-8 text-pink-600" />
+                  <Icon name="Sparkles" className="w-8 h-8 text-pink-600" />
                 </div>
-                <CardTitle className="text-xl">Реклама</CardTitle>
+                <CardTitle className="text-xl">Парфюмерия</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 text-center">
-                  Настройка и оптимизация рекламных кампаний в социальных сетях
+                  Духи, туалетная вода, парфюмированные лосьоны и дезодоранты
                 </p>
               </CardContent>
             </Card>
@@ -217,14 +220,14 @@ const Index = () => {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Icon name="Users" className="w-8 h-8 text-pink-600" />
+                  <Icon name="Soap" className="w-8 h-8 text-pink-600" />
                 </div>
-                <CardTitle className="text-xl">Работа с блогерами</CardTitle>
+                <CardTitle className="text-xl">Средства гигиены</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 text-center">
-                  Поиск и взаимодействие с beauty-блогерами для продвижения
-                  продуктов
+                  Мыло, шампуни, гели для душа, зубные пасты и другие средства
+                  гигиены
                 </p>
               </CardContent>
             </Card>
@@ -232,13 +235,13 @@ const Index = () => {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Icon name="BarChart" className="w-8 h-8 text-pink-600" />
+                  <Icon name="ShoppingCart" className="w-8 h-8 text-pink-600" />
                 </div>
-                <CardTitle className="text-xl">Аналитика</CardTitle>
+                <CardTitle className="text-xl">Интернет-магазин</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 text-center">
-                  Детальный анализ эффективности рекламных кампаний и ROI
+                  Удобная покупка онлайн с доставкой по всей России
                 </p>
               </CardContent>
             </Card>
@@ -246,14 +249,13 @@ const Index = () => {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Icon name="Globe" className="w-8 h-8 text-pink-600" />
+                  <Icon name="Shield" className="w-8 h-8 text-pink-600" />
                 </div>
-                <CardTitle className="text-xl">Стратегия бренда</CardTitle>
+                <CardTitle className="text-xl">Контроль качества</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 text-center">
-                  Разработка комплексной стратегии позиционирования
-                  beauty-бренда
+                  Строгие стандарты качества и безопасности всей продукции
                 </p>
               </CardContent>
             </Card>
@@ -269,7 +271,7 @@ const Index = () => {
               Свяжитесь с нами
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Готовы обсудить ваш проект? Мы всегда на связи
+              Готовы ответить на ваши вопросы о нашей продукции
             </p>
           </div>
 
@@ -281,29 +283,31 @@ const Index = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Email</h3>
-                  <p className="text-gray-600">info@sofkot.ru</p>
+                  <p className="text-gray-600">sofkot19@mail.ru</p>
                 </div>
               </div>
 
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center">
-                  <Icon name="Phone" className="w-6 h-6 text-pink-600" />
+                  <Icon name="Globe" className="w-6 h-6 text-pink-600" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">
-                    Телефон
+                    Интернет-магазин
                   </h3>
-                  <p className="text-gray-600">+7 (999) 123-45-67</p>
+                  <p className="text-gray-600">Онлайн-каталог с доставкой</p>
                 </div>
               </div>
 
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center">
-                  <Icon name="MapPin" className="w-6 h-6 text-pink-600" />
+                  <Icon name="Package" className="w-6 h-6 text-pink-600" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900">Адрес</h3>
-                  <p className="text-gray-600">г. Москва, ул. Примерная, 123</p>
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    Доставка
+                  </h3>
+                  <p className="text-gray-600">По всей России</p>
                 </div>
               </div>
             </div>
@@ -330,7 +334,7 @@ const Index = () => {
                   <input
                     type="email"
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent"
-                    placeholder="your@email.com"
+                    placeholder="ваш@email.com"
                   />
                 </div>
                 <div>
@@ -340,7 +344,7 @@ const Index = () => {
                   <textarea
                     rows={4}
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent"
-                    placeholder="Расскажите о вашем проекте..."
+                    placeholder="Ваш вопрос или пожелание..."
                   />
                 </div>
                 <Button className="w-full bg-pink-400 hover:bg-pink-500 text-white">
@@ -357,35 +361,36 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="col-span-1 md:col-span-2">
-              <h3 className="text-2xl font-bold mb-4">ООО Софкот</h3>
+              <h3 className="text-2xl font-bold mb-4">ООО "СОФКОТ"</h3>
               <p className="text-gray-400 mb-4">
-                Цифровые коммуникации для косметики и парфюмерии. Превращаем ваш
-                бренд в магнит для клиентов.
+                Производство и продажа качественной косметики, парфюмерии и
+                средств личной гигиены. Интернет-магазин с доставкой по всей
+                России.
               </p>
             </div>
 
             <div>
-              <h4 className="text-lg font-semibold mb-4">Услуги</h4>
+              <h4 className="text-lg font-semibold mb-4">Продукция</h4>
               <ul className="space-y-2 text-gray-400">
-                <li>SMM продвижение</li>
-                <li>Контент-производство</li>
-                <li>Реклама</li>
-                <li>Аналитика</li>
+                <li>Декоративная косметика</li>
+                <li>Уходовая косметика</li>
+                <li>Парфюмерия</li>
+                <li>Средства гигиены</li>
               </ul>
             </div>
 
             <div>
               <h4 className="text-lg font-semibold mb-4">Контакты</h4>
               <ul className="space-y-2 text-gray-400">
-                <li>info@sofkot.ru</li>
-                <li>+7 (999) 123-45-67</li>
-                <li>г. Москва</li>
+                <li>sofkot19@mail.ru</li>
+                <li>Интернет-магазин</li>
+                <li>Доставка по РФ</li>
               </ul>
             </div>
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 ООО Софкот. Все права защищены.</p>
+            <p>&copy; 2024 ООО "СОФКОТ". Все права защищены.</p>
           </div>
         </div>
       </footer>
